@@ -1,0 +1,16 @@
+<html>
+
+<head>
+  <meta content="application/wasm;charset=utf-8" http-equiv="Content-Type" />
+  <title>BSON Benchmark</title>
+</head>
+
+<body>
+  <script src='pkg/bson_bench.js'></script>
+  <script type=module>
+    wasm_bindgen('pkg/bson_bench_bg.wasm')
+      .catch(console.error);
+  </script>
+</body>
+
+</html>
