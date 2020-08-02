@@ -1,14 +1,15 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta content="application/wasm;charset=utf-8" http-equiv="Content-Type" />
+  <meta content="text/html;charset=utf-8" http-equiv="Content-Type" />
   <title>BSON Benchmark</title>
 </head>
 
 <body>
-  <script src='pkg/bson_bench.js'></script>
+  <script src='pkg/bson_benchmark.js'></script>
   <script type=module>
-    wasm_bindgen('pkg/bson_bench_bg.wasm')
+    wasm_bindgen('pkg/bson_benchmark_bg.wasm')
       .catch(console.error);
   </script>
 </body>

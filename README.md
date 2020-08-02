@@ -21,4 +21,4 @@ Execute the HTTP server:
 basic-http-server
 ```
 
-The results will show on the browser's console, after freezing the tab for around 20 seconds.
+While the server is running open http://localhost:4000. The results will show on the browser's console, after freezing the tab for around 20 seconds.
