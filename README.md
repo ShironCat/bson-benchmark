@@ -13,7 +13,7 @@ A small webassembly benchmark designed to run in a browser to test the differenc
 
 Compile to a WASM module:
 ```sh
-wasm-pack run --target no-modules --release
+wasm-pack build --target no-modules --release
 ```
 
 Execute the HTTP server:
