@@ -1,0 +1,14 @@
+{
+  "name": "bson-benchmark",
+  "collaborators": [
+    "Victor Azadinho Miranda <18581436+ShironCat@users.noreply.github.com>"
+  ],
+  "version": "0.1.0",
+  "files": [
+    "bson_benchmark_bg.wasm",
+    "bson_benchmark.js",
+    "bson_benchmark.d.ts"
+  ],
+  "browser": "bson_benchmark.js",
+  "types": "bson_benchmark.d.ts"
+}
